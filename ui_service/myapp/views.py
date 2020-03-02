@@ -68,4 +68,4 @@ def readMessage():
             connection.close() 
             return body.decode("utf-8")
     else:
-        return '';
+        return ''
